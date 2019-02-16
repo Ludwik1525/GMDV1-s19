@@ -54,6 +54,9 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Easy Weapons\Editor\WeaponEditor.cs" />
+     <Compile Include="Assets\VRInteractions\Examples\Shared\Editor\Actions\ActionDrawer.cs" />
+     <Compile Include="Assets\VRInteractions\Examples\Shared\Editor\ExposeProperties\ExposableMonobehaviorEditor.cs" />
+     <Compile Include="Assets\VRInteractions\Examples\Shared\Editor\ExposeProperties\ExposeProperties.cs" />
  <Reference Include="UnityEditor.StandardEvents">
  <HintPath>D:/软件/Unity Build Game/Maze_shooter/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
  </Reference>
