@@ -71,26 +71,10 @@
      <Compile Include="Assets\Easy Weapons\Scripts\TimedObjectDestroyer.cs" />
      <Compile Include="Assets\Easy Weapons\Scripts\Weapon.cs" />
      <Compile Include="Assets\Easy Weapons\Scripts\WeaponSystem.cs" />
-     <Compile Include="Assets\VRInteractions\Examples\Assets\Scripts\Bob.cs" />
-     <Compile Include="Assets\VRInteractions\Examples\Assets\Scripts\FadeIn.cs" />
-     <Compile Include="Assets\VRInteractions\Examples\Assets\Scripts\LightController.cs" />
-     <Compile Include="Assets\VRInteractions\Examples\Assets\Scripts\ObjectSpawner.cs" />
-     <Compile Include="Assets\VRInteractions\Examples\Assets\Scripts\Piston.cs" />
-     <Compile Include="Assets\VRInteractions\Examples\Assets\Scripts\PistonLeverLink.cs" />
-     <Compile Include="Assets\VRInteractions\Examples\Assets\Scripts\Rotate.cs" />
-     <Compile Include="Assets\VRInteractions\Examples\Shared\Utilities\Actions\Trigger.cs" />
-     <Compile Include="Assets\VRInteractions\Examples\Shared\Utilities\Actions\UnityAction.cs" />
-     <Compile Include="Assets\VRInteractions\Examples\Shared\Utilities\ExposableProperties\ExposableMonobehavior.cs" />
-     <Compile Include="Assets\VRInteractions\Examples\Shared\Utilities\ExposableProperties\ExposePropertyAttribute.cs" />
-     <Compile Include="Assets\VRInteractions\Scripts\VRButton.cs" />
-     <Compile Include="Assets\VRInteractions\Scripts\VRGrippedButton.cs" />
-     <Compile Include="Assets\VRInteractions\Scripts\VRGripper.cs" />
-     <Compile Include="Assets\VRInteractions\Scripts\VRHandle.cs" />
-     <Compile Include="Assets\VRInteractions\Scripts\VRInteractable.cs" />
-     <Compile Include="Assets\VRInteractions\Scripts\VRLever.cs" />
+     <Compile Include="Assets\Gate_Trigger.cs" />
      <Compile Include="Assets\WeaponScript.cs" />
      <None Include="Assets\Easy Weapons\Readme.txt" />
-     <None Include="Assets\VRInteractions\ReadMe.txt" />
+     <None Include="Assets\Add Elements\Readme.txt" />
  <Reference Include="UnityEditor.StandardEvents">
  <HintPath>D:/软件/Unity Build Game/Maze_shooter/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
  </Reference>
