@@ -15,6 +15,7 @@ public class Spawner : MonoBehaviour
 	public bool move = true;						// Move this spawn spot around
 	public float moveAmount = 5.0f;					// The amount to move
 	public float turnAmount = 5.0f;					// The amount to turn
+    public Transform playerTransform;
 
 	private float spawnTimer = 0.0f;
 
@@ -52,7 +53,8 @@ public class Spawner : MonoBehaviour
 		if (prefabToSpawn != null)
 		{
 			// Instantiate the prefab
-			Instantiate(prefabToSpawn, transform.position, Quaternion.identity);
+			GameObject enemy = Instantiate(prefabToSpawn, transform.position, Quaternion.identity);
+            enemy.GetComponent<Enemy>().playerTransform = playerTransform;
 		}
 	}
 }
