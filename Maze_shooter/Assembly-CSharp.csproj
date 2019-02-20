@@ -61,7 +61,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Models\Bullet Casing\FP_Shooting.cs" />
     <Compile Include="Assets\Models\DungeonModules\Scripts\DoorAOpen.cs" />
     <Compile Include="Assets\Models\Easy Weapons\Scripts\BombFragment.cs" />
     <Compile Include="Assets\Models\Easy Weapons\Scripts\BulletHole.cs" />
@@ -83,8 +82,8 @@
     <Compile Include="Assets\Scripts\Gate_Trigger.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\Restart.cs" />
-    <Compile Include="Assets\Scripts\ShowExtinguisherAnimation.cs" />
     <Compile Include="Assets\Scripts\SprayControl.cs" />
+    <Compile Include="Assets\Scripts\SwitchCamera.cs" />
     <Compile Include="Assets\Scripts\Victory.cs" />
     <Compile Include="Assets\Scripts\WeaponScript.cs" />
     <None Include="Assets\Models\Easy Weapons\Readme.txt" />
