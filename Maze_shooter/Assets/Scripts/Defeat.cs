@@ -8,9 +8,8 @@ public class Defeat : MonoBehaviour {
 
     private void OnCollisionEnter(Collision col)
     {
-        if(col.gameObject.name == "Enemy")
+        if(col.gameObject.CompareTag("Enemy"))
         {
-            //SceneManager.LoadScene("You were not prepared, scene");
             SceneManager.LoadScene("DefeatScene");
         }
     }
