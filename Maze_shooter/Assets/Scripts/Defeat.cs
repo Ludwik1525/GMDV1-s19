@@ -10,9 +10,8 @@ public class Defeat : MonoBehaviour {
     {
         if(col.gameObject.name == "Enemy")
         {
-        //SceneManager.LoadScene("You were not prepared, scene");
-        SceneManager.LoadScene("DefeatScene");
-
+            //SceneManager.LoadScene("You were not prepared, scene");
+            SceneManager.LoadScene("DefeatScene");
         }
     }
 }
