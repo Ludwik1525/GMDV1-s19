@@ -19,4 +19,16 @@ public class Enemy : MonoBehaviour {
 	void Update () {
         navMeshAgent.destination = playerPos.position;
 	}
+
+    public void SlowDown()
+    {
+        StartCoroutine(SlowDownRoutine());
+    }
+
+    IEnumerator SlowDownRoutine()
+    {
+        navMeshAgent.speed = 0;
+        yield return new WaitForSeconds(5);
+        navMeshAgent.speed = 3.5f;
+    }
 }
